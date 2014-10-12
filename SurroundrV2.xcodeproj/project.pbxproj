@@ -14,6 +14,9 @@
 		562F292A19EA0FDF005CCDD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 562F292919EA0FDF005CCDD5 /* Images.xcassets */; };
 		562F292D19EA0FDF005CCDD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 562F292B19EA0FDF005CCDD5 /* LaunchScreen.xib */; };
 		562F293919EA0FDF005CCDD5 /* SurroundrV2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 562F293819EA0FDF005CCDD5 /* SurroundrV2Tests.m */; };
+		562F294319EA17DA005CCDD5 /* sending.m in Sources */ = {isa = PBXBuildFile; fileRef = 562F294219EA17DA005CCDD5 /* sending.m */; };
+		562F294519EA84B9005CCDD5 /* SurroundRMenu1.png in Resources */ = {isa = PBXBuildFile; fileRef = 562F294419EA84B9005CCDD5 /* SurroundRMenu1.png */; };
+		562F294719EA90D0005CCDD5 /* AudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 562F294619EA90D0005CCDD5 /* AudioManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		562F293219EA0FDF005CCDD5 /* SurroundrV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurroundrV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		562F293719EA0FDF005CCDD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		562F293819EA0FDF005CCDD5 /* SurroundrV2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SurroundrV2Tests.m; sourceTree = "<group>"; };
+		562F294219EA17DA005CCDD5 /* sending.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sending.m; sourceTree = "<group>"; };
+		562F294419EA84B9005CCDD5 /* SurroundRMenu1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SurroundRMenu1.png; sourceTree = "<group>"; };
+		562F294619EA90D0005CCDD5 /* AudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +92,11 @@
 				562F292319EA0FDF005CCDD5 /* ViewController.h */,
 				562F292419EA0FDF005CCDD5 /* ViewController.m */,
 				562F292619EA0FDF005CCDD5 /* Main.storyboard */,
+				562F294619EA90D0005CCDD5 /* AudioManager.m */,
 				562F292919EA0FDF005CCDD5 /* Images.xcassets */,
 				562F292B19EA0FDF005CCDD5 /* LaunchScreen.xib */,
 				562F291C19EA0FDF005CCDD5 /* Supporting Files */,
+				562F294219EA17DA005CCDD5 /* sending.m */,
 			);
 			path = SurroundrV2;
 			sourceTree = "<group>";
@@ -97,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				562F291D19EA0FDF005CCDD5 /* Info.plist */,
+				562F294419EA84B9005CCDD5 /* SurroundRMenu1.png */,
 				562F291E19EA0FDF005CCDD5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -202,6 +211,7 @@
 				562F292819EA0FDF005CCDD5 /* Main.storyboard in Resources */,
 				562F292D19EA0FDF005CCDD5 /* LaunchScreen.xib in Resources */,
 				562F292A19EA0FDF005CCDD5 /* Images.xcassets in Resources */,
+				562F294519EA84B9005CCDD5 /* SurroundRMenu1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +231,8 @@
 			files = (
 				562F292519EA0FDF005CCDD5 /* ViewController.m in Sources */,
 				562F292219EA0FDF005CCDD5 /* AppDelegate.m in Sources */,
+				562F294319EA17DA005CCDD5 /* sending.m in Sources */,
+				562F294719EA90D0005CCDD5 /* AudioManager.m in Sources */,
 				562F291F19EA0FDF005CCDD5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SurroundrV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +367,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SurroundrV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

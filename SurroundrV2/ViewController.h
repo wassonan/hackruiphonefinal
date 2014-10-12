@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property BOOL readyToStream;
+@property char *ip;
+@property char *port;
+@property (strong, nonatomic) IBOutlet UILabel *testLabel;
 
 @end
 
